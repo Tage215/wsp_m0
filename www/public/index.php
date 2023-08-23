@@ -2,6 +2,9 @@
 <html>
 <head lang="sv"></head>
 <body>
+
+<?php include("header.html");?>
+
 <h1>Matematik-test</h1>
 <form action="result.php" method="post">
    <fieldset>
@@ -27,5 +30,8 @@
        <input type="submit" value="Rätta">
    </fieldset>
 </form>
+
+<?php include("footer.html");?>
+
 </body>
 </html>
