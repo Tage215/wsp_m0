@@ -8,6 +8,7 @@
     $a3 = $_POST["q3"];
     $a4 = $_POST["q4"];
     $a5 = $_POST["q5"];
+    $name = $_POST["name"];
 
     if($a1 == 9)
         $points++;
@@ -20,7 +21,7 @@
     if($a5 == 5)
         $points++;
     
-    print("du fick $points av 5 möjliga");
+    print("bra jobbat $name du fick $points av 5 möjliga");
 
 ?>
 <body>
