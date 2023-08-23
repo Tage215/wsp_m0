@@ -27,6 +27,9 @@
        <label>Namn: </label>
        <input type="text" name="name">
        <br>
+       <label>Antal dollar: </label>
+       <input type="text" name="currency">
+       <br>
        <input type="submit" value="Rätta">
    </fieldset>
 </form>
