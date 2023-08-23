@@ -11,13 +11,13 @@
 
     if($a1 == 9)
         $points++;
-    if($a1 == 15)
+    if($a2 == 15)
         $points++;
-    if($a1 == 10)
+    if($a3 == 10)
         $points++;
-    if($a1 == 18)
+    if($a4 == 18)
         $points++;
-    if($a1 == 5)
+    if($a5 == 5)
         $points++;
     
     print("du fick $points av 5 möjliga");
