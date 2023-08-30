@@ -31,16 +31,6 @@
    </fieldset>
 </form>
 
-<form action="currency.php" method="post">
-    <fieldset>
-        <label>Antal dollar: </label>
-        <input type="text" name="currency">
-        <br>
-        <input type="submit" value="Konvertera till SEK">
-    </fieldset>
-</form>
-
-
 <?php include("footer.html");?>
 
 </body>
