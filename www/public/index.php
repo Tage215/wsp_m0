@@ -36,7 +36,7 @@
         <label>Antal dollar: </label>
         <input type="text" name="currency">
         <br>
-        <input type="submit" value="Rätta">
+        <input type="submit" value="Konvertera till SEK">
     </fieldset>
 </form>
 
