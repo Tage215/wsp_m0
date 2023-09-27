@@ -4,7 +4,7 @@
 <body>
 
 <?php include("header.html");?>
-
+HEJ
 <h1>Matematik-test</h1>
 <form action="result.php" method="post">
    <fieldset>
