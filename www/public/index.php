@@ -4,8 +4,8 @@
 <body>
 
 <?php include("header.html");?>
-<h1> HEJ </h1>
-<h1>Matematik-test</h1>
+
+<h1>Matematik-test aaaaaaa</h1>
 <form action="result.php" method="post">
    <fieldset>
        <legend>Frågor</legend>
