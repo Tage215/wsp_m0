@@ -29,6 +29,7 @@
         $points++;
 
     print"Du fick $points poäng";
+    <br>
     if($points < 3)
         print"Läs på mer och försök igen";
     else if($points < 5)
