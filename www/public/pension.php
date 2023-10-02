@@ -9,7 +9,10 @@
 <?php
     $age = $_POST['age'];
     $yearsLeft = 65 - $age;
-    print"Du har $yearsLeft år kvar till pensionen";
+
+    $name = $_POST['name'];
+
+    print"$name du har $yearsLeft år kvar till pensionen";
 ?>
 </body>
 </html>
