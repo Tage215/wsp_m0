@@ -69,7 +69,7 @@
        <br>
        <input type="text" name="name">
        <label>Ålder</label>
-       <input type="text" name="år">
+       <input type="text" name="age">
        <br>
        <input type="submit" value="skicka">
     </fieldset>
