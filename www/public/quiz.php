@@ -28,8 +28,8 @@
     if($q6 == 'en')
         $points++;
 
-    print"Du fick $points poäng";
-    <br>
+    print"Du fick $points poäng\n";
+    
     if($points < 3)
         print"Läs på mer och försök igen";
     else if($points < 5)
