@@ -52,6 +52,17 @@
     </fieldset>
 </form>
 
+<form action="calculate.php" method="post">
+    <fieldset>
+       <legend>Kalkylator</legend>
+       <input type="number" name="n1"> +
+       <input type="number" name="n2">
+       <br>
+       <input type="submit" value="Beräkna">
+    </fieldset>
+</form>
+
+
 <?php include("footer.html");?>
 
 </body>
