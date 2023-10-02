@@ -75,6 +75,42 @@
     </fieldset>
 </form>
 
+<form action="quiz.php" method="post">
+    <legend>Quiz</legend>
+    <label>I vilket språk programmerar vi i på kursen?<br>    
+        <input type="radio" name="q1" value="php">PHP<br>
+        <input type="radio" name="q1" value="asp">ASP<br>
+        <input type="radio" name="q1" value="jsp">JSP<br><br>
+    </label>
+    <label>Vilket språk är ett klientskriptspråk<br>  
+        <input type="radio" name="q2" value="jsp">JSP<br>
+        <input type="radio" name="q2" value="js">JavaScript<br>
+        <input type="radio" name="q2" value="basic">Basic<br><br>
+    </label>
+    <label>Vilket är det bästa landet<br>  
+        <input type="radio" name="q3" value="us">USA<br>
+        <input type="radio" name="q3" value="no">Norge<br>
+        <input type="radio" name="q3" value="bu">Bulgarien<br><br>
+    </label>
+    <label>Vilken är Sveriges bästa storstad<br>  
+        <input type="radio" name="q4" value="ork">Örkelljunga<br>
+        <input type="radio" name="q4" value="mal">Malmö<br>
+        <input type="radio" name="q4" value="sto">Stockholm<br><br>
+    </label>
+    <label>Fråga 5<br>  
+        <input type="radio" name="q5" value="a1">Alternativ 1<br>
+        <input type="radio" name="q5" value="a2">Alternativ 2<br>
+        <input type="radio" name="q5" value="a3">Alternativ3<br><br>
+    </label>
+    <label>Hur mycket knark äter Dino<br>  
+        <input type="radio" name="q6" value="10">10g<br>
+        <input type="radio" name="q6" value="en">En knark<br>
+        <input type="radio" name="q6" value="700">700g<br><br>
+    </label>
+
+    <input type="submit" value="Skicka" />
+</form>
+
 
 <?php include("footer.html");?>
 
