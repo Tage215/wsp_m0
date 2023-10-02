@@ -23,12 +23,21 @@
        <br>
        <label>1 x 5 = </label>
        <input type="text" name="q5">
-       <br>
+       <br><br>
        <label>Namn: </label>
        <input type="text" name="name">
        <br>
        <input type="submit" value="Rätta">
    </fieldset>
+</form>
+
+<form action="currency.php" method="post">
+    <fieldset>
+        <legend>Valutakonverterare</legend>
+        <label>Ange ett belopp i dollar</label>
+        <input type="text" name="currency">
+        <input type="submit" value="konvertera till SEK">
+    </fieldset>
 </form>
 
 <?php include("footer.html");?>
