@@ -62,6 +62,19 @@
     </fieldset>
 </form>
 
+<form action="get.php" method="get">
+    <fieldset>
+       <legend>Skickar länk</legend>
+       <label>Namn</label>
+       <br>
+       <input type="text" name="name">
+       <label>Ålder</label>
+       <input type="text" name="år">
+       <br>
+       <input type="submit" value="skicka">
+    </fieldset>
+</form>
+
 
 <?php include("footer.html");?>
 
