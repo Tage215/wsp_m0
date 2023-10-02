@@ -5,7 +5,7 @@
 
 <?php include("header.html");?>
 
-<h1>Matematik-test</h1>
+<h1>Matematik-test hejsan !!!</h1>
 <form action="result.php" method="post">
    <fieldset>
        <legend>Frågor</legend>
