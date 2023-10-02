@@ -40,6 +40,18 @@
     </fieldset>
 </form>
 
+<form action="pension.php" method="post">
+    <fieldset>
+        <legend>Tid kvar till pensionen</legend>
+        <label>Namn</label>
+        <input type="text" name="name">
+        <br>
+        <label>Ålder</label>
+        <input type="text" name="age">
+        <input type="submit" value="Beräkna">
+    </fieldset>
+</form>
+
 <?php include("footer.html");?>
 
 </body>
